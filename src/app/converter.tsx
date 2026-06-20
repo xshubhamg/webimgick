@@ -292,6 +292,26 @@ export default function Converter() {
           </section>
         </section>
       </main>
+      <section className="credits-section" data-reveal>
+        <div className="credits-content">
+          <div className="developer-info">
+            <span className="info-title">Interview Submission</span>
+            <div className="developer-meta">
+              <span className="dev-name">Shubham Giri</span>
+              <span className="dev-separator">·</span>
+              <a href="mailto:shubhammgiri3@gmail.com" className="dev-email">shubhammgiri3@gmail.com</a>
+            </div>
+          </div>
+          <a
+            href="https://digitalheroesco.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero-btn"
+          >
+            Built for Digital Heroes
+          </a>
+        </div>
+      </section>
       <footer data-reveal><span>WEBIMGICK / 2026</span><p>Processed securely on demand · 4 MB limit · JPEG, PNG, WebP, AVIF</p><span>NO STORAGE</span></footer>
       <div className={`toast ${toast ? "show" : ""}`} role="alert" aria-live="assertive"><X size={17} /><span>{toast}</span><button onClick={() => setToast(null)} aria-label="Dismiss notification"><X size={14} /></button></div>
     </div>
